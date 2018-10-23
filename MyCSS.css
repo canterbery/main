@@ -1,0 +1,234 @@
+
+.img_container{
+    width:50%;
+    float:left;
+    padding:5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+div.polaroid {
+    width: 48%;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+
+    top: 10px;
+
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    float:left;
+    margin-left: 20px;
+
+    border: 5px solid #A9834F;
+}
+
+div.polaroid img {
+    width: 100%;
+    height: 410px;
+
+}
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Oswald', 'sans-serif';
+
+}
+
+div.container p{
+    font-family: 'Oswald', 'sans-serif';
+}
+
+div.container h3{
+    font-family: 'Oswald', 'sans-serif';
+}
+.polaroid img{
+    border: 1px solid #A9834F;
+}
+.sidebar {
+    float: right;
+    width: 35%;
+    position:relative;
+    top:10px;
+    right:10px;
+    background-color: #fff;
+    color: #444;
+    border-style: solid;
+    border-width: medium;
+}
+
+
+
+.home{
+    min-height: 100vh;
+    padding-top: 190px;
+
+}
+
+.home_cont{
+    min-height: 550px;
+    border-top: 10px solid #A9834F;
+    border-bottom: 10px solid #A9834F;
+    position: relative;
+    background-image: url(bg_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.home_top_text{
+
+}
+
+.home_top_text_h1{
+    display: block;
+    line-height: 58px;
+    text-transform: uppercase;
+    background-image: url(1.png);
+    width: 802px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 57px;
+    max-width: 815px;
+    padding-left: 50px;
+}
+
+.home_bottom_text{
+    padding-top: 5px;
+    background-image: url(2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 770px;
+    padding-right: 50px;
+    height: 58px;
+}
+
+.home_bottom_text_h2{
+    padding: 0 50px 0 120px;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.top_form{
+    max-width: 315px;
+    border: 3px solid rgba(197,109,0,.9);
+    border-radius: 6px;
+    background-color: rgba(255,255,255,.9);
+    padding: 20px;
+    position: absolute;
+    right: 50px;
+    top: 25%;
+}
+
+.top_form_h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top_form .label{
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 255px;
+}
+
+.top_form .input{
+    height: 48px;
+    width: 255px;
+    border: 1px solid #C56D00;
+    border-radius: 4px;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.top_form .but_span_press{
+    height: 48px;
+    line-height: 48px;
+    width: 255px;
+    margin: 15px auto 0;
+    display: block;
+    text-align: center;
+
+    background-color: rgb(251, 139, 0);
+    border-color: rgb(201, 111, 0);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home_video{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    border: 4px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+/*aside*/
+.home_aside{
+    width: 100%;
+    max-width: 1024px;
+    margin: 10px auto;
+    position: relative;
+}
+.aside_img{
+    float: right;
+    margin-left: 10px;
+}
+
+.home_aside_h2{
+    padding-top: 65px;
+    font-size: 30px;
+}
+
+.gost_button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+
+    background-color: rgb(251, 139, 0);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.gost_button a{
+    display: block;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+.gost_button:hover{
+    cursor: pointer;
+}
+
+.top_messages{
+    text-align: center;
+}

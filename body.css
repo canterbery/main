@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.home_mob{
+    display: none;
+}
